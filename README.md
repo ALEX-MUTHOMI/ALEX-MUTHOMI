@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=250&section=header&text=Alex%20Muthomi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Backend%20Architect%20%7C%20AWS%20%7C%20Scalable%20Systems&descAlignY=60&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=250&section=header&text=Alex%20Muthomi&fontSize=80&animation=fadeIn&fontAlignY=35&fontColor=70d1f4&desc=Backend%20Architect%20%7C%20AWS%20%7C%20Scalable%20Systems&descAlignY=60&descAlign=50"/>
 </div>
 
 <table border="0" width="100%">
@@ -7,17 +7,17 @@
     <td width="45%" valign="top">
       <h2>👨‍💻 Engineering Profile</h2>
       <br/>
-      
-      > *Specializing in high-concurrency APIs and fault-tolerant architecture.*
-      
+      <blockquote>
+        <i><b>"I build high-concurrency APIs and fault-tolerant architecture."</b></i>
+      </blockquote>
       <br/>
-
-      - 🔭 **Current Project:** Scaling [Photo-Box-API](https://github.com/alex-muthomi/photobox-api)
-      - 🌩️ **Cloud Focus:** AWS (Serverless & EC2)
-      - 🐳 **Containerization:** Docker & Kubernetes Expert
-      - 💬 **Ask Me About:** Django ORM optimization & System Design
-
-      <br/><br/>
+      <ul>
+        <li>🔭 <b>Current Project:</b> <a href="https://github.com/alex-muthomi/photobox-api">Photo-Box-API</a></li>
+        <li>🌩️ <b>Cloud Focus:</b> AWS (Serverless & EC2)</li>
+        <li>🐳 <b>DevOps:</b> Docker & Kubernetes Expert</li>
+        <li>💬 <b>Ask Me About:</b> Django ORM & System Design</li>
+      </ul>
+      <br/>
       
       <a href="https://linkedin.com/in/alex-muthomi">
         <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -34,29 +34,29 @@
       
       <b>☁️ Cloud & DevOps Infrastructure</b>
       <br/>
-      <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,kafka,nginx,linux" height="45" />
+      <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,kafka,nginx,linux" height="40" />
       <br/><br/>
 
       <b>⚡ Backend Engineering</b>
       <br/>
-      <img src="https://skillicons.dev/icons?i=python,django,go,rust" height="45" />
+      <img src="https://skillicons.dev/icons?i=python,django,go,rust" height="40" />
       <br/><br/>
 
       <b>🗄️ Database Architecture</b>
       <br/>
-      <img src="https://skillicons.dev/icons?i=postgres,mongo,redis,firebase" height="45" />
+      <img src="https://skillicons.dev/icons?i=postgres,mongo,redis,firebase" height="40" />
       <br/><br/>
 
       <b>🔧 Tools & Workflow</b>
       <br/>
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" height="45" />
+      <img src="https://skillicons.dev/icons?i=git,github,vscode,postman" height="40" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<h2 align="left">📊 Performance Metrics</h2>
+<h2>📊 Performance Metrics</h2>
 
 <table width="100%">
   <tr>
@@ -75,14 +75,13 @@
 
 <br/>
 
-<h2 align="left">🏆 Contribution Timeline</h2>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
+<h2>🏆 Contribution Activity</h2>
+<div align="center">
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=alex-muthomi&bg_color=0d1117&color=70d1f4&line=70d1f4&point=FFFFFF&hide_border=true" width="100%" />
+</div>
 
 <br/><br/>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=100&section=footer"/>
 </div>
