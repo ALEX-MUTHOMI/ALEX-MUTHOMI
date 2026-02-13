@@ -7,7 +7,7 @@
 <table width="100%"><tr><td width="50%"><img src="https://github-readme-stats-eight-theta.vercel.app/api?username=alex-muthomi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/></td><td width="50%"><img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alex-muthomi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/></td></tr></table>
 <br/>
 <h2>🏆 Contribution Activity</h2>
-<h2 align="center">🐍 Contribution Snake</h2>
+<!-- <h2 align="center">🐍 Contribution Snake</h2> -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alex-muthomi/alex-muthomi/output/github-snake-dark.svg">
