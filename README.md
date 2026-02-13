@@ -8,13 +8,13 @@
 <br/>
 <h2>🏆 Contribution Activity</h2>
 <!-- <h2 align="center">🐍 Contribution Snake</h2> -->
-<div align="center">
+<!-- <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alex-muthomi/alex-muthomi/output/github-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alex-muthomi/alex-muthomi/output/github-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/alex-muthomi/alex-muthomi/output/github-snake.svg" width="100%">
   </picture>
-</div>
+</div> -->
 <div align="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=alex-muthomi&bg_color=0d1117&color=70d1f4&line=70d1f4&point=FFFFFF&hide_border=true" width="100%"/></div>
 <br/><br/>
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=100&section=footer"/></div>
