@@ -1,125 +1,202 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=220&section=header&text=Alex%20Muthomi&fontSize=72&fontColor=70d1f4&animation=fadeIn&fontAlignY=35&desc=Backend%20Engineer%20%7C%20Django%20%7C%20AWS%20%7C%20Distributed%20Systems&descAlignY=58&descAlign=50" />
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=250&section=header&text=Alex%20Muthomi&fontSize=80&animation=fadeIn&fontAlignY=35&fontColor=70d1f4&desc=Backend%20Systems%20Engineer%20%7C%20Django%20%7C%20AWS%20%7C%20Scalable%20APIs&descAlignY=60&descAlign=50"/>
 </div>
 
-<h2 align="center">Backend engineer building APIs, cloud systems, and developer-friendly infrastructure.</h2>
-
-<p align="center">
-  I work mostly with Django REST Framework, PostgreSQL, Redis, Docker, and AWS.
-  <br/>
-  I care about clean system design, practical reliability, security, and building products that can grow without becoming painful to maintain.
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/alex-mputhia">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:muthomialex64@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/alex-muthomi/photobox-api">
-    <img src="https://img.shields.io/badge/Project-Photo--Box--API-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
----
-
-## About Me
-
-I am a backend-focused developer interested in systems that are reliable, scalable, and understandable.
-
-My current focus is backend architecture for academic and operational platforms, including multi-tenant systems, role-based access, reporting workflows, background processing, and cloud deployment.
-
-I enjoy working close to the infrastructure layer: designing APIs, modeling data, improving CI/CD pipelines, debugging service failures, and making backend systems easier to test, deploy, and operate.
-
----
-
-## What I Work With
-
-<table>
+<table border="0" width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" align="center">
 
-### Backend
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=70&text=Engineering%20Profile&fontColor=ffffff&fontSize=35&stroke=70d1f4&strokeWidth=2" width="100%"/>
 
-- Python
-- Django
-- Django REST Framework
-- Celery
-- REST API design
-- Authentication and authorization
-- Background jobs and async workflows
+<br/><br/>
+
+<blockquote>
+  <i><b>I build backend systems that are clean, reliable, secure, and ready to scale.</b></i>
+</blockquote>
+
+<br/>
+
+<p align="left">
+  I am a backend-focused developer working with Django, PostgreSQL, Redis, Docker, and AWS.
+  My work is centered around API design, system architecture, deployment workflows, and building software that can grow without becoming difficult to maintain.
+</p>
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <td align="left">
+      🔭 <b>Current Focus:</b> Backend architecture, scalable APIs, and cloud-ready systems
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      🧠 <b>Engineering Style:</b> Practical system design, clean boundaries, and maintainable code
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      🛡️ <b>Security Mindset:</b> Authentication, authorization, data protection, and CI security checks
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      ⚙️ <b>Backend Stack:</b> Django REST Framework, PostgreSQL, Redis, Celery, Docker
+    </td>
+  </tr>
+  <tr>
+    <td align="left">
+      💬 <b>Ask Me About:</b> APIs, Django, backend architecture, system design, and AWS deployment
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/alex-mputhia">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+&nbsp;
+<a href="mailto:muthomialex64@gmail.com">
+  <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
 
     </td>
-    <td width="50%" valign="top">
 
-### Infrastructure
+    <td width="50%" valign="top" align="center">
 
-- AWS
-- Docker
-- Linux
-- Nginx
-- GitHub Actions
-- PostgreSQL
-- Redis
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=70&text=Technical%20Stack&fontColor=ffffff&fontSize=35&stroke=70d1f4&strokeWidth=2" width="100%"/>
+
+<br/><br/>
+
+<b>☁️ Cloud & Infrastructure</b>
+<br/>
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,nginx,linux" height="40"/>
+
+<br/><br/>
+
+<b>⚡ Backend Engineering</b>
+<br/>
+<img src="https://skillicons.dev/icons?i=python,django" height="40"/>
+<img src="https://img.shields.io/badge/Django_REST-ff1709?style=flat&logo=django&logoColor=white&labelColor=101010" height="40"/>
+
+<br/><br/>
+
+<b>🗄️ Data & Messaging</b>
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,mongo,redis,kafka,firebase" height="40"/>
+
+<br/><br/>
+
+<b>🔧 Tools & Workflow</b>
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman" height="40"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/API%20Design-Backend%20First-70d1f4?style=for-the-badge"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/System%20Design-Scalable%20Architecture-70d1f4?style=for-the-badge"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Delivery-Docker%20%7C%20CI%2FCD%20%7C%20AWS-70d1f4?style=for-the-badge"/>
 
     </td>
   </tr>
 </table>
 
----
+<br/>
 
-## Current Engineering Interests
+<h2>🧭 Engineering Direction</h2>
 
-- Designing multi-tenant backend systems
-- Building clean and maintainable APIs
-- Improving CI/CD reliability
-- Securing authentication and authorization boundaries
-- Working with PostgreSQL, Redis, and background workers
-- Turning product requirements into stable backend architecture
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <h3>Backend Architecture</h3>
+      <p>
+        Designing APIs, service boundaries, data models, background jobs, and backend workflows that remain understandable as the system grows.
+      </p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h3>Cloud & Deployment</h3>
+      <p>
+        Working with Docker, AWS, Linux, Nginx, and CI/CD pipelines to make applications easier to deploy, test, and operate.
+      </p>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <h3>Reliability & Security</h3>
+      <p>
+        Paying attention to authentication, authorization, protected data, automated checks, failure handling, and production readiness.
+      </p>
+    </td>
+  </tr>
+</table>
 
----
+<br/>
 
-## Featured Project
+<h2>🚀 Featured Work</h2>
 
-### Photo-Box-API
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Photo-Box-API</h3>
+      <p>
+        A backend API project focused on clean service design, media workflows, and practical API development.
+      </p>
+      <p>
+        <a href="https://github.com/alex-muthomi/photobox-api">
+          <img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Current Engineering Focus</h3>
+      <p>
+        I am sharpening my backend systems skills around multi-tenant architecture, cloud deployment, CI/CD quality gates, background processing, and secure API design.
+      </p>
+    </td>
+  </tr>
+</table>
 
-A backend API project focused on clean service design, media workflows, and practical API development.
+<br/>
 
-<p>
-  <a href="https://github.com/alex-muthomi/photobox-api">
-    <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+<h2>📊 Performance Metrics</h2>
 
----
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=alex-muthomi&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=5" width="100%" alt="streak graph"/>
+</div>
 
-## Tech Stack
+<br/>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,django,postgres,redis,docker,aws,linux,nginx,git,github,githubactions,vscode,postman" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=alex-muthomi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alex-muthomi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="100%"/>
+    </td>
+  </tr>
+</table>
 
----
+<br/>
 
-## GitHub Activity
+<h2>🏆 Contribution Activity</h2>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=alex-muthomi&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=8" width="90%" alt="GitHub streak graph"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=alex-muthomi&bg_color=0d1117&color=70d1f4&line=70d1f4&point=FFFFFF&hide_border=true" width="100%"/>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=alex-muthomi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="48%"/>
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alex-muthomi&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="48%"/>
-</p>
+<br/><br/>
 
----
+<div align="center">
+  <blockquote>
+    <i>
+      Building backend systems with clarity, discipline, and production in mind.
+    </i>
+  </blockquote>
+</div>
 
-<p align="center">
-  <i>Building backend systems that are clean, reliable, and ready to scale.</i>
-</p>
+<br/>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=100&section=footer"/>
