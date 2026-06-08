@@ -41,35 +41,60 @@ My core work is Django service architecture, multi-tenant access models, asynchr
 
 Multi-tenant photography SaaS backend for secure media ingestion, object-storage delivery, quota integrity, and asynchronous processing.
 
-**Backend signal:** DRF coordinates tenant state, gallery access, quota reservations, signed delivery, billing/webhook integrity, and Celery-backed processing.
+**Backend Design**
 
-**Systems signal:** the upload pipeline separates small-file fast-lane processing from heavy direct-to-R2 uploads, keeping large binary traffic outside the Django application path.
+- DRF coordinates tenant state, gallery access, quota reservations, signed delivery, billing/webhook integrity, and Celery-backed processing.
+- Media ingestion is split into fast-lane uploads for smaller files and direct-to-R2 heavy-lane uploads for larger files.
 
-**Differentiator:** storage accounting is treated as a ledger problem, with row-locking, quota race protection, idempotent webhooks, payload-hash replay defense, signed URL TTLs, and failure paths designed for auditability.
+**System Design**
 
-**What to inspect:** `gallery`, `ingestion`, `billing`, `webhooks`, security tests, production verification notes, red-team matrix, API docs, CI scripts, and toxiproxy resilience checks.
+- Cloudflare R2 acts as the object-storage vault while Django owns tenant metadata, quota accounting, gallery permissions, and workflow state.
+- Storage accounting is treated as a ledger problem, with row-locking, quota race protection, idempotent webhooks, and audit-friendly failure paths.
+
+**Security & Reliability**
+
+- Covers cross-tenant access, decompression bombs, MIME/path validation, SSRF-style risks, HMAC verification, replay windows, signed URL TTLs, and R2 outage behavior.
+- Includes red-team security matrices, production verification notes, CI scripts, smoke/integration/security gates, and toxiproxy-based resilience checks.
+
+**Reviewer Focus:** `gallery`, `ingestion`, `billing`, `webhooks`, security tests, API docs, production verification notes.
+
+<br/>
 
 ### [DARASA-API](https://github.com/ALEX-MUTHOMI/DARASA-API)
 
 Academic ERP backend foundation built around schema tenancy, deterministic runtime, event contracts, curriculum governance, grading workflows, and reporting readiness.
 
-**Backend signal:** tenant provisioning, academics, curriculum, events, grading, portals, core identity, selectors, services, and policies are separated into explicit domain boundaries.
+**Backend Design**
 
-**Systems signal:** the event backbone includes contracts, payload validators, producer authorization, idempotency keys, retry policy, dead-letter classification, priority ordering, partition keys, and audit hashing.
+- Tenant provisioning, academics, curriculum, events, grading, portals, core identity, selectors, services, and policies are separated into explicit domain boundaries.
+- The Django runtime is Docker-first, with PostgreSQL, Redis, Celery worker/beat, Poetry-managed dependencies, service containers, and diagnostic Make targets.
 
-**Differentiator:** the grading and curriculum modules include deterministic algorithms for curriculum impact analysis, regulatory notice classification, report readiness, role analytics, PII-safe correction payloads, and report snapshot integrity.
+**System Design**
 
-**What to inspect:** `tenant`, `academics`, `curriculum`, `events`, `grading`, security docs, testing strategy, architecture phases, phase-boundary tests, Make targets, CI/security gates, and toxiproxy config.
+- The event backbone includes contracts, payload validators, producer authorization, idempotency keys, retry policy, dead-letter classification, priority ordering, partition keys, and audit hashing.
+- Curriculum and grading workflows are modeled as deterministic algorithms rather than ad hoc controller logic.
+
+**Security & Reliability**
+
+- Includes tenant-aware access boundaries, phase-boundary tests, PII-safe correction payloads, report snapshot integrity, security docs, CI/security gates, opt-in chaos tests, toxiproxy config, and reproducible runtime checks.
+
+**Reviewer Focus:** `tenant`, `academics`, `curriculum`, `events`, `grading`, security docs, testing strategy, architecture phases.
+
+<br/>
 
 ### [RECIPE-APP-API](https://github.com/ALEX-MUTHOMI/RECIPE-APP-API)
 
 Backend API and deployment automation project under the BackToFront Development brand.
 
-**Backend signal:** authenticated recipe, tag, ingredient, image-upload, and user-management APIs with DRF, PostgreSQL, user-scoped querysets, nested serializers, filtering, and API tests.
+**Backend Design**
 
-**Systems signal:** Docker/Compose workflows, wait-for-database orchestration, Nginx proxy configuration, and deploy-oriented service files.
+- Authenticated recipe, tag, ingredient, image-upload, and user-management APIs with DRF, PostgreSQL, user-scoped querysets, nested serializers, filtering, and API tests.
 
-**Differentiator:** this project shows the baseline discipline underneath the larger systems: testable API resources, user isolation, containerized delivery, and operational setup.
+**System Design**
+
+- Docker/Compose workflows, wait-for-database orchestration, Nginx proxy configuration, deploy-oriented service files, and repeatable local/runtime setup.
+
+**Reviewer Focus:** user isolation, serializer design, API tests, image upload handling, Docker deployment baseline.
 
 ## Technical Depth
 
