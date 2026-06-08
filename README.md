@@ -22,11 +22,13 @@
 
 ## Backend Systems Profile
 
-I build backend systems where API design, data integrity, infrastructure, and security have to work together under real product constraints.
+**Backend engineer building Django/DRF systems where API architecture, tenant-safe data models, async workflows, security, and runtime reliability have to hold together under real product constraints.**
 
-My core work is Django service architecture, multi-tenant access models, asynchronous processing, secure file workflows, event-driven foundations, and deployment automation. Through **BackToFront Development**, I translate business requirements into maintainable web systems with strong backend and infrastructure foundations.
+- **What I build:** multi-tenant APIs, secure file-ingestion pipelines, Celery-backed workflows, webhook/event boundaries, quota ledgers, and deployment-ready backend services.
+- **How I engineer:** explicit domain boundaries, permission-first access models, idempotent state transitions, failure-aware data integrity, reproducible runtime setup, and security-focused test coverage.
+- **Business context:** through **BackToFront Development**, I translate product requirements into maintainable backend systems with clear architecture, operational constraints, and reviewable engineering evidence.
 
-**Best fit:** backend engineering, API engineering, cloud backend, platform-adjacent backend, and Python/Django roles where project evidence matters.
+**Recruiter fit:** backend engineering, API engineering, Python/Django, cloud backend, platform-adjacent backend, and systems-oriented product engineering roles.
 
 ## Backend + Systems Positioning
 
