@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=230&section=header&text=Alex%20Muthomi&fontSize=72&fontAlignY=35&fontColor=70d1f4&desc=Backend%20Engineer%20%7C%20Founder%20of%20BackToFront%20Development&descAlignY=58&descAlign=50&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=170&section=header&text=Alex%20Muthomi&fontSize=66&fontAlignY=34&fontColor=70d1f4&desc=Backend%20Engineer%20%7C%20Founder%20of%20BackToFront%20Development&descAlignY=68&descAlign=50&animation=fadeIn" />
 </div>
 
 <p align="center">
@@ -27,6 +27,14 @@ I build backend systems where API design, data integrity, infrastructure, and se
 My core work is in Django service architecture, multi-tenant access models, asynchronous processing, secure file workflows, and deployment automation. Through **BackToFront Development**, I translate business requirements into maintainable web systems with a strong backend and infrastructure foundation.
 
 **Primary direction:** backend engineering, API engineering, cloud backend systems, platform foundations, and Python/Django roles where project evidence matters.
+
+## 30-Second Technical Scope
+
+- **Backend platforms:** Django REST Framework APIs with authentication, authorization, service boundaries, validation, and maintainable domain structure.
+- **Async and storage workflows:** Celery, Redis, Cloudflare R2, signed delivery links, direct-to-storage uploads, idempotent webhooks, and background processing.
+- **Data integrity:** PostgreSQL-backed workflows, tenant-aware access controls, quota enforcement, row-locking patterns, and race-condition protection.
+- **Deployment ownership:** Docker-first local/runtime environments, Linux, Nginx, Terraform, CI/CD checks, and AWS-oriented deployment patterns.
+- **Engineering posture:** secure file handling, reproducible environments, technical documentation, and architecture decisions that support long-term system growth.
 
 ## Production Portfolio
 
