@@ -1,72 +1,72 @@
 # Alex Muthomi
 
-**Self-taught Backend Engineer and Founder of BackToFront Development**  
-Python | Django REST Framework | Cloud Backend Systems | API Architecture
+**Backend Engineer and Founder of BackToFront Development**  
+Python | Django REST Framework | Cloud Backend Architecture | Infrastructure Automation
 
-I build backend platforms where product requirements, infrastructure, data integrity, and security have to work together. My strongest work is in Django-based APIs, multi-tenant systems, async processing, file workflows, deployment automation, and cloud-ready service design.
+I design and build backend platforms where API boundaries, data integrity, infrastructure, and security have to work together. My strongest work is in Django-based service architecture, multi-tenant systems, asynchronous processing, secure file workflows, deployment automation, and cloud-ready backend foundations.
 
-I do not come from a traditional computer science degree path. I am self-taught, which has shaped how I work: I learn by building complete systems, reading deeply, documenting decisions, and turning difficult backend problems into working architecture. My GitHub is structured to show that progression through real projects, not just tutorials.
-
-I also run **BackToFront Development**, where I use software engineering to help clients and product ideas move from business requirements to working web systems.
+Through **BackToFront Development**, I turn business requirements into working web systems, with a bias toward backend reliability, maintainable architecture, and deployment discipline.
 
 [LinkedIn](https://www.linkedin.com/in/alex-mputhia) | [Email](mailto:muthomialex64@gmail.com) | [GitHub](https://github.com/ALEX-MUTHOMI)
 
-## Engineering Positioning
+## Backend Systems Are My Primary Operating Surface
 
-- **Backend systems:** Django REST Framework, authentication, permissions, domain boundaries, background jobs, and API design.
-- **Cloud and deployment:** Docker, Docker Compose, Linux, Nginx, AWS-oriented infrastructure, Terraform, and CI/CD workflows.
-- **Data reliability:** PostgreSQL, Redis, transactional workflows, quota enforcement, idempotency, and tenant-aware access control.
-- **Security mindset:** authorization boundaries, upload validation, webhook verification, replay protection, and safer file delivery patterns.
-- **Founder mindset:** I think in terms of product constraints, delivery risk, maintainability, and what a system needs before it can support real users.
+- **API architecture:** Django REST Framework, authentication, authorization, permissions, domain boundaries, and service-level validation.
+- **Distributed workflows:** Celery, Redis, asynchronous jobs, idempotent webhook handling, direct-to-storage upload flows, and background processing.
+- **Data reliability:** PostgreSQL, transactional workflows, quota enforcement, row-locking patterns, and tenant-aware access control.
+- **Cloud delivery:** Docker, Docker Compose, Linux, Nginx, AWS-oriented deployment, Terraform, and CI/CD workflows.
+- **Security posture:** upload validation, replay protection, authorization boundaries, safer file delivery, and defensive backend design.
 
-## Project Evidence
+## Projects That Demonstrate Architecture, Not Just Syntax
 
 ### [PhotoBox-API](https://github.com/ALEX-MUTHOMI/PhotoBox-API)
 
-Multi-tenant photography SaaS backend designed around secure media handling and asynchronous delivery.
+Multi-tenant photography SaaS backend designed to decouple heavy media workflows from the Django application layer.
 
-**What this demonstrates:** architecture thinking beyond CRUD, tenant isolation, secure upload workflows, Cloudflare R2 storage, Cloudinary fetch delivery, Celery workers, Redis, PostgreSQL, quota enforcement, and idempotent webhook handling.
+**Architecture focus:** Django REST Framework coordinates tenant state, quota reservations, billing/webhook integrity, and secure delivery while Cloudflare R2 handles binary storage and Celery workers process asynchronous upload paths.
 
-**Why it matters to engineering teams:** the project shows practical judgment around data paths, file security, concurrent quota updates, and separating heavy media traffic from the Django application layer.
+**Engineering constraints represented in the design:** fast-lane uploads at 5 MB and below, heavy-lane uploads above 5 MB through presigned direct-to-storage tickets, 60-second signed download URLs, idempotent webhook processing, and quota updates protected against race conditions.
+
+**Why this matters:** this is evidence of backend judgment beyond CRUD: tenant isolation, storage architecture, file-security boundaries, async processing, and data consistency under concurrent user activity.
 
 ### [DARASA-API](https://github.com/ALEX-MUTHOMI/DARASA-API)
 
-Academic ERP backend foundation for schools, built with a Docker-first Django runtime and production-oriented quality gates.
+Academic ERP backend foundation for schools, built with a deterministic Docker-first runtime and production-oriented quality gates.
 
-**What this demonstrates:** multi-tenant-ready project structure, PostgreSQL, Redis, Celery, Poetry, CI diagnostics, service-boundary scaffolding, observability foundations, and security/test gatekeeping.
+**Architecture focus:** multi-tenant-ready Django project layout, PostgreSQL, Redis, Celery worker/beat, Poetry-managed dependencies, CI diagnostics, security checks, and service-boundary scaffolding for future ERP modules.
 
-**Why it matters to engineering teams:** the project shows that I can reason about long-lived backend platforms, not just isolated endpoints. It is structured around maintainability, deterministic runtime, and future domain growth.
+**Engineering constraints represented in the design:** reproducible local runtime, isolated service containers, explicit app/runtime layout, diagnostic Make targets, opt-in chaos tests, and separation between academic ERP boundaries and unrelated commercial workflows.
+
+**Why this matters:** this shows platform thinking: the repository is shaped for long-term domain growth, not a single feature demo.
 
 ### [RECIPE-APP-API](https://github.com/ALEX-MUTHOMI/RECIPE-APP-API)
 
 Backend API and deployment automation project under the BackToFront Development brand.
 
-**What this demonstrates:** Dockerized backend delivery, Terraform, AWS deployment thinking, infrastructure automation, and API foundations.
+**Architecture focus:** Dockerized API delivery, Terraform, AWS deployment thinking, infrastructure automation, and maintainable backend deployment patterns.
 
-**Why it matters to engineering teams:** it connects backend implementation with deployment responsibility, which is important in teams where engineers own services beyond local development.
+**Why this matters:** this connects backend implementation with operational ownership, which is valuable on teams where engineers are expected to understand how services run beyond local development.
 
-### [Beauty Cosmetics Portfolio Website](https://github.com/ALEX-MUTHOMI/BEAUTY-COSMETICS-PORTFOLIO-WEBSITE)
+## Self-Taught Execution Is Part of the Signal
 
-Client-facing portfolio website project.
+I built my engineering depth outside a traditional computer science degree path by shipping systems, studying architecture decisions, documenting tradeoffs, and repeatedly pushing projects past the tutorial stage into runtime, deployment, security, and maintainability concerns.
 
-**What this demonstrates:** ability to deliver polished web presence work while keeping my primary engineering focus on backend systems and infrastructure.
+That background matters because it shows independent learning velocity, persistence through ambiguity, and the ability to convert unfamiliar technical problems into working systems without waiting for a formal path to define the next step.
 
-## Technical Depth
+## Technical Depth Recruiters Should Screen For
 
 **Primary language:** Python  
 **Backend:** Django, Django REST Framework, Celery  
 **Data:** PostgreSQL, Redis  
 **Infrastructure:** Docker, Docker Compose, Linux, Nginx, AWS-oriented deployment, Terraform  
-**Practices:** REST API design, authentication, authorization, CI/CD, security checks, test automation, documentation, service-boundary design
+**Engineering practices:** REST API design, authentication, authorization, CI/CD, security checks, test automation, documentation, service-boundary design
 
-## How I Work
+## Additional Delivery Context
 
-I care about systems that are understandable after the first version ships. That means clear API contracts, explicit service boundaries, reproducible environments, defensive security decisions, and documentation that makes future changes easier.
+I also build client-facing web systems through BackToFront Development, including portfolio and business websites. Those projects show delivery range, but my core engineering direction is backend systems, API architecture, cloud backend work, and infrastructure automation.
 
-My self-taught background is not a gap I try to hide. It is evidence that I can learn independently, stay persistent through ambiguity, and build enough depth to turn complex backend ideas into working systems.
+## Recruiter Signal
 
-## Recruiter Summary
-
-I am best matched for backend engineering, API engineering, cloud backend, platform, or Python/Django roles where project evidence matters. I bring founder-level ownership, strong self-learning discipline, and hands-on backend architecture experience across real portfolio systems.
+I am best matched for backend engineering, API engineering, cloud backend, platform, or Python/Django roles where project evidence matters. I bring founder-level ownership, strong independent learning discipline, and hands-on backend architecture experience across real portfolio systems.
 
 Reach me at [muthomialex64@gmail.com](mailto:muthomialex64@gmail.com).
