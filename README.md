@@ -1,27 +1,32 @@
 <div align="center">
-
-# Alex Muthomi
-
-**Backend Engineer | Founder, BackToFront Development**  
-Python | Django REST Framework | PostgreSQL | Redis | Docker | Cloud Backend Systems
-
-[LinkedIn](https://www.linkedin.com/in/alex-mputhia) | [Email](mailto:muthomialex64@gmail.com) | [GitHub](https://github.com/ALEX-MUTHOMI)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=230&section=header&text=Alex%20Muthomi&fontSize=72&fontAlignY=35&fontColor=70d1f4&desc=Backend%20Engineer%20%7C%20Founder%20of%20BackToFront%20Development&descAlignY=58&descAlign=50&animation=fadeIn" />
 </div>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/alex-mputhia"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:muthomialex64@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/ALEX-MUTHOMI"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python" />
+  <img src="https://img.shields.io/badge/Django-111827?style=flat-square&logo=django" />
+  <img src="https://img.shields.io/badge/DRF-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql" />
+  <img src="https://img.shields.io/badge/Redis-111827?style=flat-square&logo=redis" />
+  <img src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker" />
+  <img src="https://img.shields.io/badge/Terraform-111827?style=flat-square&logo=terraform" />
+</p>
+
 ---
+
+## Backend Engineering Profile
 
 I build backend systems where API design, data integrity, infrastructure, and security need to hold together under real product constraints.
 
 My core work is in Django service architecture, multi-tenant access models, asynchronous processing, secure file workflows, and deployment automation. Through **BackToFront Development**, I translate business requirements into maintainable web systems with a strong backend and infrastructure foundation.
 
-## Backend Focus
-
-- API architecture with Django REST Framework, authentication, authorization, permissions, and service boundaries.
-- Distributed workflows with Celery, Redis, idempotent webhooks, background jobs, and direct-to-storage upload paths.
-- Data reliability with PostgreSQL, transactional workflows, quota enforcement, row-locking patterns, and tenant-aware access.
-- Cloud delivery with Docker, Docker Compose, Linux, Nginx, Terraform, CI/CD, and AWS-oriented deployment patterns.
-- Security-conscious backend design around upload validation, replay protection, signed delivery, and authorization boundaries.
+**Primary direction:** backend engineering, API engineering, cloud backend systems, platform foundations, and Python/Django roles where project evidence matters.
 
 ## Production Portfolio
 
@@ -48,21 +53,33 @@ Backend API and deployment automation project under the BackToFront Development 
 - Connects API implementation with Dockerized delivery, Terraform, AWS-oriented deployment design, and infrastructure automation.
 - Shows operational ownership beyond local development: configuration repeatability, service deployment, and maintainable backend delivery.
 
-## Engineering Methodology
+## Technical Depth
 
-Backend engineering practice centered on runtime predictability, strict domain boundaries, data integrity, deployment repeatability, and clear technical documentation.
-
-The work is driven by independent research, architecture tradeoff analysis, and building systems that move beyond local demos into runtime, deployment, security, and maintainability concerns.
-
-## Technical Stack
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,django,postgres,redis,docker,aws,terraform,linux,nginx,githubactions" height="42" />
+</p>
 
 **Backend:** Python, Django, Django REST Framework, Celery  
 **Data:** PostgreSQL, Redis  
 **Infrastructure:** Docker, Docker Compose, Linux, Nginx, Terraform, AWS-oriented deployment  
 **Practices:** REST API design, authentication, authorization, CI/CD, security checks, test automation, documentation
 
-## Role Fit
+## Engineering Methodology
 
-Backend engineering, API engineering, cloud backend, platform, and Python/Django roles where autonomous system design and project evidence matter.
+Backend engineering practice centered on runtime predictability, strict domain boundaries, data integrity, deployment repeatability, and clear technical documentation.
 
-**Contact:** [muthomialex64@gmail.com](mailto:muthomialex64@gmail.com)
+The work is driven by independent research, architecture tradeoff analysis, and building systems that move beyond local demos into runtime, deployment, security, and maintainability concerns.
+
+## GitHub Activity
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=ALEX-MUTHOMI&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=5" width="92%" alt="GitHub streak graph" />
+  <br/><br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ALEX-MUTHOMI&bg_color=0d1117&color=70d1f4&line=70d1f4&point=FFFFFF&hide_border=true" width="92%" alt="GitHub activity graph" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=90&section=footer" />
+</div>
