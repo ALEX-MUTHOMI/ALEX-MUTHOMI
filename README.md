@@ -28,7 +28,7 @@
 - **How I engineer:** explicit domain boundaries, permission-first access models, idempotent state transitions, failure-aware data integrity, reproducible runtime setup, and security-focused test coverage.
 - **Business context:** through **BackToFront Development**, I translate product requirements into maintainable backend systems with clear architecture, operational constraints, and reviewable engineering evidence.
 
-**Recruiter fit:** backend engineering, API engineering, Python/Django, cloud backend, platform-adjacent backend, and systems-oriented product engineering roles.
+**Current focus:** backend engineering, API architecture, Python/Django systems, cloud backend foundations, and platform-adjacent product engineering.
 
 ## Backend + Systems Positioning
 
@@ -48,7 +48,7 @@ I am best evaluated as a backend engineer with strong systems-engineering range:
 - **Distributed-system patterns:** small uploads use API validation plus worker handoff; large uploads use presigned direct-to-R2 tickets so Django does not carry heavy binary traffic.
 - **Data integrity:** storage accounting is handled as a quota ledger with row locking, race protection, idempotent transitions, payload-hash replay defense, and audit-friendly failure paths.
 - **Security/reliability:** covers cross-tenant access, MIME/path validation, decompression-bomb checks, HMAC verification, replay windows, signed URL TTLs, webhook ghost keys, and R2 outage behavior.
-- **Recruiter scan:** `gallery` | `ingestion` | `billing` | `webhooks` | Celery | Redis | Cloudflare R2 | security tests | API docs
+- **Evidence:** `gallery` | `ingestion` | `billing` | `webhooks` | Celery | Redis | Cloudflare R2 | security tests | API docs
 
 ---
 
@@ -59,7 +59,7 @@ I am best evaluated as a backend engineer with strong systems-engineering range:
 - **Distributed-system patterns:** the event backbone is application-level and broker-ready, with payload contracts, producer allowlists, idempotency keys, retry policy, dead-letter classification, priority ordering, partition keys, and audit hashing.
 - **Domain design:** curriculum and grading workflows use deterministic algorithms for impact analysis, regulatory notice classification, grading compilation, report readiness, role analytics, correction safety, and report snapshot integrity.
 - **Runtime reliability:** Docker-first stack with PostgreSQL, Redis, Celery worker/beat, Poetry dependencies, service containers, Make targets, CI/security gates, opt-in chaos tests, toxiproxy config, and reproducible checks.
-- **Recruiter scan:** `tenant` | `academics` | `curriculum` | `events` | `grading` | DDD-style boundaries | event backbone | security docs | testing strategy
+- **Evidence:** `tenant` | `academics` | `curriculum` | `events` | `grading` | DDD-style boundaries | event backbone | security docs | testing strategy
 
 ---
 
@@ -68,7 +68,7 @@ I am best evaluated as a backend engineer with strong systems-engineering range:
 **Scope:** backend API and deployment automation baseline under the BackToFront Development brand.
 - **Backend architecture:** authenticated recipe, tag, ingredient, image-upload, and user-management APIs with DRF, PostgreSQL, user-scoped querysets, nested serializers, filtering, and API tests.
 - **Runtime design:** Docker/Compose workflows, wait-for-database orchestration, Nginx proxy configuration, deploy-oriented service files, and repeatable local/runtime setup.
-- **Recruiter scan:** user isolation | serializer design | API tests | image upload handling | Docker deployment baseline
+- **Evidence:** user isolation | serializer design | API tests | image upload handling | Docker deployment baseline
 
 ## Engineering Operating Model
 
