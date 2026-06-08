@@ -68,26 +68,38 @@ I am best evaluated as a backend engineer with strong systems-engineering range:
 - **Runtime design:** Docker/Compose workflows, wait-for-database orchestration, Nginx proxy configuration, deploy-oriented service files, and repeatable local/runtime setup.
 - **Recruiter scan:** user isolation | serializer design | API tests | image upload handling | Docker deployment baseline
 
-## Technical Depth
+## Engineering Operating Model
+
+<p align="center">
+  <img src="https://img.shields.io/badge/API%20Architecture-0d1117?style=for-the-badge&logo=django&logoColor=70d1f4" />
+  <img src="https://img.shields.io/badge/Data%20Integrity-0d1117?style=for-the-badge&logo=postgresql&logoColor=70d1f4" />
+  <img src="https://img.shields.io/badge/Async%20Workflows-0d1117?style=for-the-badge&logo=celery&logoColor=70d1f4" />
+  <img src="https://img.shields.io/badge/Runtime%20Reliability-0d1117?style=for-the-badge&logo=docker&logoColor=70d1f4" />
+</p>
+
+I do not treat backend work as endpoint wiring. I design the API surface, domain boundaries, async execution path, data integrity rules, and deployment runtime as one system.
+
+- **API layer:** Python, Django, DRF, authentication, authorization, serializers, permissions, validation, service boundaries, selectors, and policy checks.
+- **Workflow layer:** Celery, Redis, event contracts, webhook ingestion, idempotency keys, retry/backoff paths, dead-letter handling, and replay-safe processing.
+- **Data layer:** PostgreSQL, tenant isolation, row locking, quota ledgers, audit trails, schema discipline, and failure-aware state transitions.
+- **Runtime layer:** Docker, Docker Compose, Linux, Nginx, CI/CD gates, Make targets, Terraform, AWS-oriented deployment patterns, and reproducible diagnostics.
+- **Review layer:** security checks, red-team scenarios, test automation, production-readiness notes, architecture documentation, and failure-mode analysis.
+
+## Core Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,django,postgres,redis,docker,aws,terraform,linux,nginx,githubactions" height="42" />
 </p>
 
-**Backend:** Python, Django, Django REST Framework, Celery  
-**Data:** PostgreSQL, Redis  
-**Infrastructure:** Docker, Docker Compose, Linux, Nginx, Terraform, AWS-oriented deployment  
-**Practices:** REST API design, authentication, authorization, CI/CD, security checks, test automation, red-team review, technical documentation
+**Primary:** Python, Django REST Framework, PostgreSQL, Redis, Celery, Docker<br/>
+**Infrastructure:** Docker Compose, Linux, Nginx, Terraform, AWS-oriented deployment<br/>
+**Engineering focus:** backend architecture, distributed-system patterns, DDD-style boundaries, secure file workflows, event-driven foundations, CI/security gates, and technical documentation
 
-## Engineering Methodology
-
-Backend engineering practice centered on runtime predictability, strict domain boundaries, data integrity, deployment repeatability, resilience testing, and clear technical documentation.
-
-The work is driven by independent research, architecture tradeoff analysis, and building systems that move beyond local demos into runtime, deployment, security, maintainability, and operational failure-mode concerns.
-
-## GitHub Activity
+## Build Cadence
 
 <div align="center">
+  <sub>Public activity reflects continuous backend systems work, architecture documentation, tests, and project hardening across the portfolio.</sub>
+  <br/><br/>
   <img src="https://streak-stats.demolab.com?user=ALEX-MUTHOMI&locale=en&mode=weekly&theme=tokyonight&hide_border=true&border_radius=5" width="92%" alt="GitHub streak graph" />
   <br/><br/>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ALEX-MUTHOMI&bg_color=0d1117&color=70d1f4&line=70d1f4&point=FFFFFF&hide_border=true" width="92%" alt="GitHub activity graph" />
