@@ -28,49 +28,45 @@ My core work is Django service architecture, multi-tenant access models, asynchr
 
 **Best fit:** backend engineering, API engineering, cloud backend, platform-adjacent backend, and Python/Django roles where project evidence matters.
 
-## Backend Engineering Scope
+## Backend + Systems Positioning
 
-- **API architecture:** DRF APIs, authentication, authorization, validation boundaries, domain services, selectors, and policy layers.
-- **Data integrity:** tenant isolation, quota ledgers, idempotency, row locking, replay protection, event contracts, and failure recovery.
-- **Runtime delivery:** Docker-first services, Compose isolation, Linux/Nginx patterns, CI/CD checks, Make targets, Terraform, and AWS-oriented deployment.
-- **Security posture:** signed delivery, HMAC webhooks, upload hardening, PII-safe payloads, red-team tests, toxiproxy/chaos checks, and reproducible diagnostics.
+I am best evaluated as a backend engineer with strong systems-engineering range: I design APIs, data models, async workflows, tenant boundaries, and runtime foundations with failure modes in mind.
+
+- **Backend engineering:** Django REST Framework APIs, authentication, authorization, validation boundaries, domain services, selectors, and policy layers.
+- **Distributed-system patterns:** Celery/Redis workers, event contracts, webhook ingestion, object-storage handoff, idempotency, replay protection, retry/backoff paths, and dead-letter handling.
+- **DDD-style boundaries:** tenant, gallery, ingestion, billing, curriculum, grading, events, and identity are modeled as explicit domains rather than controller-heavy feature folders.
+- **Production readiness:** Docker-first services, Compose isolation, Linux/Nginx patterns, CI/security gates, Make targets, Terraform, AWS-oriented deployment, and reproducible diagnostics.
 
 ## Production Portfolio
 
 ### [PhotoBox-API](https://github.com/ALEX-MUTHOMI/PhotoBox-API)
 
-Multi-tenant photography SaaS backend for secure media ingestion, object-storage delivery, quota integrity, and asynchronous processing.
-
-- **Backend design:** DRF owns tenant state, gallery access, quota reservations, signed delivery, billing/webhook integrity, and Celery-backed processing.
-- **System design:** upload flow separates small-file fast-lane processing from direct-to-R2 heavy-lane uploads, keeping large binary traffic outside the Django request path.
-- **Security and reliability:** quota accounting is modeled as a ledger with row locking, race protection, idempotent webhooks, payload-hash replay defense, signed URL TTLs, MIME/path validation, decompression-bomb checks, and R2 outage behavior.
-- **Reviewer focus:** `gallery` | `ingestion` | `billing` | `webhooks` | security tests | API docs | production verification notes
-
-<br/>
+**Scope:** multi-tenant photography SaaS backend for secure media ingestion, object-storage delivery, quota integrity, signed access, billing events, and asynchronous processing.
+- **Backend architecture:** DRF coordinates tenant state, gallery access, quota reservations, signed delivery, billing/webhook integrity, and Celery-backed post-processing.
+- **Distributed-system patterns:** small uploads use API validation plus worker handoff; large uploads use presigned direct-to-R2 tickets so Django does not carry heavy binary traffic.
+- **Data integrity:** storage accounting is handled as a quota ledger with row locking, race protection, idempotent transitions, payload-hash replay defense, and audit-friendly failure paths.
+- **Security/reliability:** covers cross-tenant access, MIME/path validation, decompression-bomb checks, HMAC verification, replay windows, signed URL TTLs, webhook ghost keys, and R2 outage behavior.
+- **Recruiter scan:** `gallery` | `ingestion` | `billing` | `webhooks` | Celery | Redis | Cloudflare R2 | security tests | API docs
 
 ---
 
 ### [DARASA-API](https://github.com/ALEX-MUTHOMI/DARASA-API)
 
-Academic ERP backend foundation built around schema tenancy, deterministic runtime, event contracts, curriculum governance, grading workflows, and reporting readiness.
-
-- **Backend design:** tenant provisioning, academics, curriculum, events, grading, portals, core identity, selectors, services, and policies are separated into explicit domain boundaries.
-- **System design:** event backbone includes payload contracts, validators, producer authorization, idempotency keys, retry policy, dead-letter classification, priority ordering, partition keys, and audit hashing.
-- **Domain algorithms:** curriculum and grading modules cover impact analysis, regulatory notice classification, grading compilation, report readiness, role analytics, PII-safe correction payloads, and report snapshot integrity.
-- **Runtime reliability:** Docker-first runtime with PostgreSQL, Redis, Celery worker/beat, Poetry dependencies, service containers, Make targets, CI/security gates, opt-in chaos tests, toxiproxy config, and reproducible runtime checks.
-- **Reviewer focus:** `tenant` | `academics` | `curriculum` | `events` | `grading` | security docs | testing strategy | architecture phases
-
-<br/>
+**Scope:** academic ERP backend foundation for schema tenancy, curriculum governance, grading workflows, event contracts, tenant-scoped access, reporting readiness, and deterministic runtime behavior.
+- **Backend architecture:** tenant provisioning, academics, curriculum, events, grading, portals, core identity, selectors, services, and policies are separated into domain-owned boundaries.
+- **Distributed-system patterns:** the event backbone is application-level and broker-ready, with payload contracts, producer allowlists, idempotency keys, retry policy, dead-letter classification, priority ordering, partition keys, and audit hashing.
+- **Domain design:** curriculum and grading workflows use deterministic algorithms for impact analysis, regulatory notice classification, grading compilation, report readiness, role analytics, correction safety, and report snapshot integrity.
+- **Runtime reliability:** Docker-first stack with PostgreSQL, Redis, Celery worker/beat, Poetry dependencies, service containers, Make targets, CI/security gates, opt-in chaos tests, toxiproxy config, and reproducible checks.
+- **Recruiter scan:** `tenant` | `academics` | `curriculum` | `events` | `grading` | DDD-style boundaries | event backbone | security docs | testing strategy
 
 ---
 
 ### [RECIPE-APP-API](https://github.com/ALEX-MUTHOMI/RECIPE-APP-API)
 
-Backend API and deployment automation project under the BackToFront Development brand.
-
-- **Backend design:** authenticated recipe, tag, ingredient, image-upload, and user-management APIs with DRF, PostgreSQL, user-scoped querysets, nested serializers, filtering, and API tests.
-- **System design:** Docker/Compose workflows, wait-for-database orchestration, Nginx proxy configuration, deploy-oriented service files, and repeatable local/runtime setup.
-- **Reviewer focus:** user isolation | serializer design | API tests | image upload handling | Docker deployment baseline
+**Scope:** backend API and deployment automation baseline under the BackToFront Development brand.
+- **Backend architecture:** authenticated recipe, tag, ingredient, image-upload, and user-management APIs with DRF, PostgreSQL, user-scoped querysets, nested serializers, filtering, and API tests.
+- **Runtime design:** Docker/Compose workflows, wait-for-database orchestration, Nginx proxy configuration, deploy-oriented service files, and repeatable local/runtime setup.
+- **Recruiter scan:** user isolation | serializer design | API tests | image upload handling | Docker deployment baseline
 
 ## Technical Depth
 
